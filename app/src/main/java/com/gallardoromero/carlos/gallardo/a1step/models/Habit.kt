@@ -10,5 +10,5 @@ data class Habit(
     val name: String,
     val description: String? = null,
     val frequency: String = "daily",
-    val createAt: Long = System.currentTimeMillis()
+    val createdAt: Long = System.currentTimeMillis()
 )

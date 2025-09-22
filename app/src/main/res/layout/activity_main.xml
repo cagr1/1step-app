@@ -21,4 +21,10 @@
         android:layout_height="wrap_content"
         android:text="➕ Nuevo Hábito"/>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHabits"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"/>
+
 </LinearLayout>
